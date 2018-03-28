@@ -3,7 +3,6 @@ package com.kv.android_design.coordinatorlayout;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
-import android.webkit.WebView;
 
 import com.kv.android_design.R;
 
@@ -15,7 +14,7 @@ import com.kv.android_design.R;
  */
 public class SampleActivity1 extends FragmentActivity {
 
-    private WebView webView;
+//    private WebView webView;
 
 
     @Override
@@ -23,9 +22,9 @@ public class SampleActivity1 extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sample_1);
 
-        webView = findViewById(R.id.webview);
+//        webView = findViewById(R.id.webview);
 
-        webView.loadUrl("https://cpu.baidu.com/1021/cd6dafc1");
+//        webView.loadUrl("https://cpu.baidu.com/1021/cd6dafc1");
     }
 
 
